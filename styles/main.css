@@ -97,6 +97,10 @@ main section article a[href^="#post"] {
     left: 6em;
   }
 
+  main section article a[href^="#post"]:hover {
+    background-color: #6464a1;
+  }
+
 section.join-us {
   float: left;
   width: 45%;
