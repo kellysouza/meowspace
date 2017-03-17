@@ -8,6 +8,7 @@ body header h2 {
   position: absolute;
   font-family: 'Cinzel', serif;
 }
+
 body header h2 a {
   text-decoration: none;
 }
@@ -27,6 +28,7 @@ header nav ul li {
   padding-left: 5px;
   padding-right: 35px;
 }
+
 body {
   margin-left: 95px;
   margin-right: 95px;
@@ -60,37 +62,27 @@ main section h2 {
 
 main section.articles {
 display: inline-block;
-
 }
 
 main section article {
   border-style: solid;
   border-radius: 20px;
-  /*width: 17%;*/
   min-height: 20em;
   padding-left: 2em;
   padding-right: 2em;
   margin-left: 0;
   margin-right: 2em;
   margin-top: 2em;
-  /*float: left;*/
   clear: right;
   text-align: center;
 }
+
 main section section.cat-story {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px;
   grid-auto-rows: minmax(10px, auto);
 }
-
-/*main section section.next-three {
-  display: flex;
-  margin-left: 2em;
-}
-*/
-
-
 
 main section article a[href^="#post"] {
     background-color: #7e51a7;
@@ -102,23 +94,6 @@ main section article a[href^="#post"] {
     display: inline-block;
 }
 
-
-/*section.top-three {
-  display: flex;
-  justify-content: right;
-}*/
-
-section.join-block {
-  /*display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0px;
-  grid-auto-rows: minmax(10px, auto);
-/*float: left;*/
-/*width: 45%;
-height: 10em;
-align-items: center;
-justify-content: center;*/*/
-}
 
 section.join-us {
   float: left;
@@ -137,12 +112,6 @@ section.join-us {
    float: left;
  }
 
-/*p.test {
-  color: green;
-  display: inline-block;
-  float: left;
-  border-style: solid;
-}*/
 div.this {
   border-style: solid;
   min-height: 22em;
@@ -169,22 +138,25 @@ section.cat-pic {
   padding: 1em;
 }
 
-}
 
-main section.everybody {
+section.everybody {
+
   clear: both;
-  position: static;
-  font-size: 3em;
-  padding-top: 30px;
-
-  width: 100%;
-  text-align: center;
   background-image: url("../assets/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 350px;
+  /*clear: both;
+  position: static;
+  font-size: 3em;
+  padding-top: 30px;
+  text-align: center;
+  background-image: url("../assets/everybody.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;*/
 }
 
 footer {
@@ -204,13 +176,15 @@ footer nav {
   bottom: 140px;
   font-size: 1.3em;
 }
+
 footer nav ul {
   float: left;
   clear: both;
+  margin-left: 25em;
 }
 
 footer h4 {
   float: left;
-padding: 0px;
-margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
